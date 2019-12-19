@@ -1,0 +1,51 @@
+#movie {
+  margin: 40px 0px;
+}
+
+#movie img {
+  width: 100%;
+}
+
+#movie h3 {
+  text-transform: capitalize;
+  text-align: center;
+  color: gold;
+  font-size: 16px;
+}
+
+@media (min-width: 760px) {
+  #movie img {
+    height: 400px;
+    width: 100%;
+  }
+}
+
+#footer {
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  margin-top: 70px;
+  bottom: 0px;
+}
+
+#footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: cambria;
+}
+
+#footer a {
+  color: yellow;
+}
+
+.col-md-8 .list-group-item strong {
+  color: gold;
+}
+
+#movies {
+  margin-bottom: 60px;
+}
+/*# sourceMappingURL=style.css.map */
