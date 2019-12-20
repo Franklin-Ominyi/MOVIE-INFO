@@ -48,8 +48,7 @@ function getMovie(){
     .then((response)=>{
       var movie = response.data;
       var output = "";
-      console.log(response)
-      
+   
        output += `
        <div class="row">
        <div class="col-md-8">
@@ -76,7 +75,7 @@ function getMovie(){
         ${movie.Plot}
         <hr>
         <a href="http://imdb.com/title/${movie.imdbID}" target="_blank" class="mb-5 btn btn-info">View IMDB</a>
-        <a href="inde.html" target="_blank" class="btn btn-danger mb-5">Back to Search</a>
+        <a href="index.html" target="_blank" class="btn btn-danger mb-5">Back to Search</a>
       </div>
      </div>
      `
